@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:elevation="15dp"
+    android:background="@drawable/rect"
+    tools:context=".SelectFichas"
+    android:id="@+id/rl">
+
+    <TextView
+        android:text="id"
+        android:textColor="#000"
+        android:id="@+id/id_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/id_view"
+        android:textColor="#000"
+        android:id="@+id/preg_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Pregunta"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:id="@+id/answer_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/preg_view"
+        android:textSize="20sp"
+        android:text="Respuesta"
+        />
+
+</RelativeLayout>

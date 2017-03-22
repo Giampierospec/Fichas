@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Introduzca la Respuesta"
+        android:textAlignment="center"
+        android:layout_below="@+id/upd_preg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="103dp"
+        android:id="@+id/upd_ans" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Introduzca la Pregunta"
+        android:textAlignment="center"
+        android:id="@+id/upd_preg"
+        android:layout_below="@+id/upd_cat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="68dp" />
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/upd_btn"
+        android:text="Actualizar"
+        android:layout_height="50dp"
+        android:layout_width="150dp"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Introduzca una Categoria"
+        android:textAlignment="center"
+        android:id="@+id/upd_cat"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="37dp" />
+
+
+</RelativeLayout>
